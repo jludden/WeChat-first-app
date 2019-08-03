@@ -1,0 +1,70 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+/** Modify the default tap state for 'navigator' **/
+.navigator-hover {
+	color:blue;
+}
+/** Custom the style class of other tapping state **/
+.other-navigator-hover {
+	color:red;
+}
+
+#logo {
+  width:40px;
+  height:40px;
+}
+
+.title {
+  font-size: 24rpx;
+  color: red;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+   background-image: url('https://images.unsplash.com/photo-1553231915-7279274eb20d?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80');
+  /* background-image: url('https://cloud-minapp-13908.cloud.ifanrusercontent.com/1fxsJQzleumTqmCq.jpg'); */
+  background-position: center -30px;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  padding:30px;
+}
+.headline {
+  margin-top: 100px;
+  font-size: 40px;
+  padding:0px;
+  font-weight: bold;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+}
+.action {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+  margin: 30px;
+}

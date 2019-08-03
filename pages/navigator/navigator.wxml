@@ -1,0 +1,2 @@
+<view style="text-align:center"> {{title}} </view>
+<view> Tap on the upper left corner to return to the previous page </view>

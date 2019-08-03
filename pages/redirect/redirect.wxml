@@ -1,0 +1,11 @@
+<view style="text-align:center"> {{title}} </view>
+<view> to return press a button below: </view>
+
+ <view class="btn-area">
+    <navigator url="/pages/navigator/navigator?title=navigate" hover-class="navigator-hover">Redirect to a new page</navigator>
+
+        <navigator url="/pages/index/index" open-type="redirect" hover-class="other-navigator-hover">return redirect</navigator>
+
+    <navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">return Switch Tab</navigator>
+    <navigator target="miniProgram" open-type="navigate" app-id="" path="" extra-data="" version="release">Open linked Mini Program</navigator>
+  </view>
